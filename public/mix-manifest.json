@@ -1,0 +1,10 @@
+{
+    "/js/settings.js": "/js/settings.js",
+    "/js/wallets.js": "/js/wallets.js",
+    "/js/trades.js": "/js/trades.js",
+    "/js/markets.js": "/js/markets.js",
+    "/js/market.js": "/js/market.js",
+    "/js/withdrawalHistory.js": "/js/withdrawalHistory.js",
+    "/js/tradeHistory.js": "/js/tradeHistory.js",
+    "/js/depositHistory.js": "/js/depositHistory.js"
+}

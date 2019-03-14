@@ -1,0 +1,35 @@
+{
+	"authHost": "https://thebro.exchange",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "ac7cd69dbbb7bc09",
+			"key": "838abc5e3671996b696f743f17c3d2a8"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "https",
+	"socketio": {
+		"wsEngine":"ws",
+		"allowUpgrades":true
+	},
+	"sslCertPath": "/etc/letsencrypt/live/thebro.exchange/fullchain.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/thebro.exchange/privkey.pem",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
